@@ -1,0 +1,135 @@
+  /*Boton  agregar*/  
+ .content-agregar{
+    margin-left: 80%;
+    padding: 1.5%;
+ }
+ #busqueda{
+  /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+ /*Formulario Modal*/
+
+#card-form{
+    width: 200rem;
+
+}
+.card-header{
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.asterisco{
+    color: red;
+}
+.form-group{
+    font-weight: bold;
+}
+
+/*Tabla de Consulta(Reporte)*/
+
+.ejercicio-tabla{
+
+
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,121,195,0.700717787114846) 45%, rgba(0,212,255,0.10688025210084029) 100%);
+padding: 22px;
+
+}
+
+
+
+
+.table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.table caption {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.table th, .table td {
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
+
+.table thead th{ 
+    text-transform: uppercase;
+    background-color: rgb(47, 50, 49);
+    color: white;
+}
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table tbody td:hover {
+     background-color: rgba(0, 0, 0, 0.2);
+}
+
+tr:hover td{
+    background-color: #6fa1c8a;
+    color: white;
+}
+
+thead{
+     border-bottom: solid 5px rgb(0,0,0);
+
+}
+
+
+tr:nth-child(even){
+    background-color: #ddd;
+  }
+
+tr:hover td .block-id {
+    
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.delete{
+    color: red;
+}
+
+
+.edit{
+    color: blue;
+}
+
+/*Formulario sin uso de modal*/
+
+.ejercicio-form{
+
+
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,121,195,0.700717787114846) 45%, rgba(0,212,255,0.10688025210084029) 100%);
+}
+
+/*paginacion*/
+.paginacion{
+    background-color: red;
+}
+
+
+/*Campo Editar*/
+i{
+    cursor: pointer;
+}
